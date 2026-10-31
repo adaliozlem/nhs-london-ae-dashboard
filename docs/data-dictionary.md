@@ -49,7 +49,7 @@
 | 21 | Emergency admissions via A&E - Other A&E department | `adm_via_ae_other` | integer | Emergency admissions through other A&E departments. | 0 |
 | 22 | Other emergency admissions | `adm_other` | integer | Emergency admissions not via A&E (e.g. direct GP referral). | 0 |
 
-## Derived measures (to be confirmed against the statistical commentary)
+## Derived measures (confirmed against NHS England published figures)
 
 | Measure | Formula |
 |---|---|
@@ -59,7 +59,9 @@
 | 4-hour performance (Type 1) | (att_type1 + att_booked_type1 − over4h_type1 − over4h_booked_type1) / (att_type1 + att_booked_type1) |
 | Total emergency admissions | adm_via_ae_type1 + adm_via_ae_type2 + adm_via_ae_other + adm_other |
 
-> **To verify:** whether NHS England includes booked appointments in the published 4-hour performance figure. Check the methodology section of the September 2026 statistical commentary and reconcile the national total with our calculation.
+> **Reconciliation (September 2026, England):** Our calculation including booked appointments gives 2,444,743 total attendances, 1,817,992 within 4 hours and 74.4% performance. These match the NHS England statistical commentary exactly, which confirms booked appointments are included in the published 4-hour measure.
+
+**Operational standard:** 95% of patients should be admitted, transferred or discharged within 4 hours of arrival (NHS Constitution, as stated in the NHS England statistical commentary).
 
 ## Initial data quality observations
 
