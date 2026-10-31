@@ -11,10 +11,16 @@
 |---|---|
 | Type 1 | Major A&E department: consultant-led, 24-hour service with full resuscitation facilities. |
 | Type 2 | Consultant-led single-specialty A&E service (e.g. eye or dental hospital). |
-| Other A&E Department (Type 3) | Other A&E types, such as Urgent Treatment Centres, Minor Injury Units and Walk-in Centres. |
+| Other A&E Department (Type 3) | Now Urgent Treatment Centres (UTCs): GP-led, open at least 12 hours a day, every day, bookable via NHS 111 or GP referral (NHS England methodology, Sept 2026 commentary). |
 | Booked appointments | Attendances booked in advance (e.g. via NHS 111) rather than walk-ins. |
 | DTA | Decision to admit: the time a clinician decides the patient needs a hospital bed. |
 | 4-hour standard | Share of A&E attendances admitted, transferred or discharged within 4 hours of arrival. |
+
+## Collection and coverage
+
+- Data is submitted monthly by NHS Trusts, NHS Foundation Trusts, Social Enterprises and GP Practices averaging more than 200 attendances or 40 emergency admissions a month, via the Strategic Data Collection Service (SDCS).
+- Submissions are quality-checked by NHS England against each provider's previous submissions; outliers are queried before publication.
+- **Limitation:** very small providers below the reporting threshold are not included.
 
 ## Columns
 
