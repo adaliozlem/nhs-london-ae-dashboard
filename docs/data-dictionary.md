@@ -16,6 +16,26 @@
 | DTA | Decision to admit: the time a clinician decides the patient needs a hospital bed. |
 | 4-hour standard | Share of A&E attendances admitted, transferred or discharged within 4 hours of arrival. |
 
+## How to read the columns
+
+The 22 columns follow a patient's journey through urgent and emergency care. They fall into five groups:
+
+| Group | Columns | Question it answers |
+|---|---|---|
+| 1. Identifiers | 1–4 | Which month and which organisation is this row about? |
+| 2. Attendances | 5–10 | How many patients came? Split by department type and walk-in vs booked. |
+| 3. Over 4 hours | 11–16 | How many of them spent more than 4 hours in A&E before being admitted, transferred or discharged? |
+| 4. Waits after decision to admit | 17–18 | Once a doctor decided the patient needed a bed, how long did they wait to get one? |
+| 5. Emergency admissions | 19–22 | How many patients were admitted to hospital as an emergency, via A&E or by other routes? |
+
+**Worked example.** A patient arrives at a major emergency department with chest pain:
+1. On arrival they count as one **Type 1 attendance** (group 2).
+2. Still in A&E after 5 hours, they count as one **Type 1 attendance over 4 hours** (group 3).
+3. A clinician decides to admit them, but a bed becomes available 14 hours later: one **12+ hour wait from decision to admit** (group 4).
+4. When they reach the ward, they count as one **emergency admission via A&E – Type 1** (group 5).
+
+**Reading the 4-hour percentage.** Higher is better. 74.4% means that out of every 100 patients, about 74 left A&E (admitted, transferred or discharged) within 4 hours and 26 waited longer. Type 3 percentages are naturally higher than Type 1 because Urgent Treatment Centres see less complex cases, so the two should not be compared directly. This is why the analysis flags trusts with a Type 1 department (`Has Type 1 A&E`) and ranks only those.
+
 ## Collection and coverage
 
 - Data is submitted monthly by NHS Trusts, NHS Foundation Trusts, Social Enterprises and GP Practices averaging more than 200 attendances or 40 emergency admissions a month, via the Strategic Data Collection Service (SDCS).
