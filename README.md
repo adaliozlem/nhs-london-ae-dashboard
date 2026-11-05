@@ -6,7 +6,7 @@ This project uses NHS England's monthly A&E data to track London's 4-hour perfor
 
 ![London A&E dashboard](images/dashboard.png)
 
-**Interactive dashboard:** [Tableau Public](LINK-TO-ADD)
+**Interactive dashboard:** [View on Tableau Public](https://public.tableau.com/app/profile/yuzlem.adala/viz/NHSLondonAEPerformance4-HourStandardand12-HourWaits/Dashboard)
 
 **Data coverage:** April 2025 – September 2026 (18 months): the full 2025/26 NHS financial year (April–March) and the first half of 2026/27
 
@@ -158,4 +158,4 @@ Excel (Power Query, pivot tables, XLOOKUP, FILTER/SORT/TAKE) · PostgreSQL (view
 
 ---
 
-**Author:** Yuzlem (Ozlem) Adala · [GitHub](https://github.com/adaliozlem) · [LinkedIn](LINK-TO-ADD)
+**Author:** Yuzlem (Ozlem) Adala · [GitHub](https://github.com/adaliozlem)
