@@ -842,9 +842,11 @@
           </zone>
           <zone forceUpdate='true' h='8200' id='18' type-v2='text' w='98858' x='571' y='91000'>
             <formatted-text>
-              <run>   Source: NHS England, Monthly A&amp;E Attendances and Emergency Admissions.
-   Interim targets: NHS England Medium Term Planning Framework 2026/27–2028/29, p. 30.
-   Type 1 = major A&amp;E departments. Axis on trend chart starts at 70%.</run>
+              <run fontcolor='#555555'>   Source: NHS England, Monthly A&amp;E Attendances and Emergency Admissions.</run>
+              <run>Æ&#10;</run>
+              <run fontcolor='#555555'>   Interim targets: NHS England Medium Term Planning Framework 2026/27–2028/29, p. 30. Interim targets apply to March of each year.</run>
+              <run>Æ&#10;</run>
+              <run fontcolor='#555555'>   Type 1 = major A&amp;E departments. Axis on trend chart starts at 70%.</run>
             </formatted-text>
             <zone-style>
               <format attr='border-color' value='#444444' />
@@ -872,8 +874,8 @@
           </layout-options>
           <size maxheight='1400' minheight='1400' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='22' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98400' id='21' param='vert' type-v2='layout-flow' w='98858' x='571' y='800'>
+            <zone h='100000' id='26' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98400' id='25' param='vert' type-v2='layout-flow' w='98858' x='571' y='800'>
                 <zone h='4700' id='15' type-v2='title' w='98858' x='571' y='800'>
                   <zone-style>
                     <format attr='border-color' value='#444444' />
@@ -930,9 +932,11 @@
                 </zone>
                 <zone forceUpdate='true' h='8200' id='18' type-v2='text' w='98858' x='571' y='91000'>
                   <formatted-text>
-                    <run>   Source: NHS England, Monthly A&amp;E Attendances and Emergency Admissions.
-   Interim targets: NHS England Medium Term Planning Framework 2026/27–2028/29, p. 30.
-   Type 1 = major A&amp;E departments. Axis on trend chart starts at 70%.</run>
+                    <run fontcolor='#555555'>   Source: NHS England, Monthly A&amp;E Attendances and Emergency Admissions.</run>
+                    <run>Æ&#10;</run>
+                    <run fontcolor='#555555'>   Interim targets: NHS England Medium Term Planning Framework 2026/27–2028/29, p. 30. Interim targets apply to March of each year.</run>
+                    <run>Æ&#10;</run>
+                    <run fontcolor='#555555'>   Type 1 = major A&amp;E departments. Axis on trend chart starts at 70%.</run>
                   </formatted-text>
                   <zone-style>
                     <format attr='border-color' value='#444444' />
